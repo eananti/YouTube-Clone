@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Clone</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+        .sidebar-image {
+            background-image: url(./images/avatar.jpeg);
+            width: 300px;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .sidebar-caption {
+            position: absolute;
+            top: 160px;
+            right: 3px;
+            background-color: black;
+            color: white;
+            opacity: 0.75;
+            padding: 0 3px;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,22 +46,38 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div class="video">
-                <iframe id="video" width="500px" height="400px"
-                    src="https://www.youtube-nocookie.com/embed/-XRxET-WWxI?rel=0&amp;controls=0&amp;showinfo=0"
-                    controls frameborder="0" allowfullscreen="">
-                </iframe>
-                <h2>Thinking Out Loud/lucky cover by Rich Malik</h2>
-                <p>705 views</p>
-                <div>
-                    <i class="fa fa-thumbs-up" aria-hidden="true">2000</i>
-                    <i class="fa fa-thumbs-down" aria-hidden="true">110</i>
-                    <i class="fa fa-share">Share</i>
-                </div>
-                <button class="subscribe">Subscribe</button>
+        <section class="video">
+            <iframe id="video" width="500px" height="400px"
+                src="https://www.youtube-nocookie.com/embed/-XRxET-WWxI?rel=0&amp;controls=0&amp;showinfo=0" controls
+                frameborder="0" allowfullscreen="">
+            </iframe>
+            <h2>Thinking Out Loud/lucky cover by Rich Malik</h2>
+            <p>705 views</p>
+            <div>
+                <i class="fa fa-thumbs-up" aria-hidden="true">2000</i>
+                <i class="fa fa-thumbs-down" aria-hidden="true">110</i>
+                <i class="fa fa-share">Share</i>
             </div>
+            <button class="subscribe">Subscribe</button>
         </section>
+        <aside>
+            <section>
+                <div class="sidebar-image">
+                    <p class="sidebar-caption">14:50</p>
+                </div>
+                <p>First Header</p>
+                <p>Second Header</p>
+                <p>1,000,000 views</p>
+            </section>
+            <section>
+                <div class="sidebar-image">
+                    <p class="sidebar-caption">14:50</p>
+                </div>
+                <p>First Header</p>
+                <p>Second Header</p>
+                <p>1,000,000 views</p>
+            </section>
+        </aside>
     </main>
 </body>
 
