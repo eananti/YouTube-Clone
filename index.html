@@ -32,7 +32,7 @@
 <body>
     <header>
         <nav id="grid-container-header">
-            <div class="logo-container" >
+            <div class="logo-container">
                 <i class="fa fa-youtube" style="font-size:48px;color:red"></i>
             </div>
             <div class="search-container">
@@ -40,13 +40,19 @@
                 <button><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
             <div class="icon-container">
-                <img class="right" src="https://img.icons8.com/material-sharp/24/000000/squared-menu.png" />
-                <i class="fa fa-bell right" aria-hidden="true"></i>
-                <!-- <img src="./images/avatar.jpeg" alt="Sleepy Cat" style="width: 200px; height: 200px;"> -->
+                <div class="right">
+                    <i class="fa fa-bell" aria-hidden="true"></i>
+                </div>
+                <div class="right">
+                    <!-- <img src="./images/avatar.jpeg" alt="Sleepy Cat" style="width: 200px; height: 200px;"> -->
+                </div>
+                <div class="right">
+                    <img src="https://img.icons8.com/material-sharp/24/000000/squared-menu.png" />
+                </div>
             </div>
         </nav>
     </header>
-    <main>
+    <main id="grid-container-main">
         <section class="video">
             <iframe id="video" width="500px" height="400px"
                 src="https://www.youtube-nocookie.com/embed/-XRxET-WWxI?rel=0&amp;controls=0&amp;showinfo=0" controls
