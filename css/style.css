@@ -14,8 +14,6 @@
 
 /* Page template A */
 
-/* Page template B */
-
 /* reset  */
 
 /* Media Queries */
@@ -110,4 +108,39 @@ table {
 #grid-container-main {
 	display: grid;
 	grid-template-columns: 80% 20%;
+}
+
+/* Page template A */
+
+#circle-avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.sidebar-image {
+	width: 168px;
+	height: 94px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.sidebar-caption {
+	display: block;
+	position: absolute;
+	top: 75px;
+	right: 3px;
+	background-color: black;
+	color: white;
+	opacity: 0.75;
+	padding: 0 3px;
+}
+
+.cat-one {
+	background-image: url("https://images.unsplash.com/photo-1482066490729-6f26115b60dc?ixlib=rb-1.2.1&w=1000&q=80");
+}
+
+.cat-two {
+	background-image: url("https://images.unsplash.com/photo-1552933529-e359b2477252?ixlib=rb-1.2.1&w=1000&q=80");
 }

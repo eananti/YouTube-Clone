@@ -7,26 +7,6 @@
     <title>YouTube Clone</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <style>
-        .sidebar-image {
-            background-image: url(./images/avatar.jpeg);
-            width: 300px;
-            height: 200px;
-            background-size: cover;
-            background-position: center;
-            position: relative;
-        }
-
-        .sidebar-caption {
-            position: absolute;
-            top: 160px;
-            right: 3px;
-            background-color: black;
-            color: white;
-            opacity: 0.75;
-            padding: 0 3px;
-        }
-    </style>
 </head>
 
 <body>
@@ -41,10 +21,10 @@
             </div>
             <div class="icon-container">
                 <div class="right">
-                    <i class="fa fa-bell" aria-hidden="true"></i>
+                    <img id="circle-avatar" src="./images/avatar.jpeg" alt="Sleepy Cat">
                 </div>
                 <div class="right">
-                    <!-- <img src="./images/avatar.jpeg" alt="Sleepy Cat" style="width: 200px; height: 200px;"> -->
+                    <i class="fa fa-bell" aria-hidden="true"></i>
                 </div>
                 <div class="right">
                     <img src="https://img.icons8.com/material-sharp/24/000000/squared-menu.png" />
@@ -69,7 +49,7 @@
         </section>
         <aside>
             <section>
-                <div class="sidebar-image">
+                <div class="sidebar-image cat-one">
                     <p class="sidebar-caption">14:50</p>
                 </div>
                 <p>First Header</p>
@@ -77,7 +57,7 @@
                 <p>1,000,000 views</p>
             </section>
             <section>
-                <div class="sidebar-image">
+                <div class="sidebar-image cat-two">
                     <p class="sidebar-caption">14:50</p>
                 </div>
                 <p>First Header</p>
