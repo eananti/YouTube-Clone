@@ -107,7 +107,24 @@ table {
 
 #grid-container-main {
 	display: grid;
-	grid-template-columns: 80% 20%;
+	grid-template-columns: 70% 30%;
+}
+
+.grid-aside {
+	display: grid;
+	grid-template-columns: 45% 55%;
+	margin-bottom: 10px;
+}
+
+#first-thumbnail {
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+#grid-thumbnail {
+	display: grid;
+	grid-template-columns: 50% 50%;
 }
 
 /* Page template A */
@@ -143,4 +160,8 @@ table {
 
 .cat-two {
 	background-image: url("https://images.unsplash.com/photo-1552933529-e359b2477252?ixlib=rb-1.2.1&w=1000&q=80");
+}
+
+.dog-one {
+	background-image: url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
