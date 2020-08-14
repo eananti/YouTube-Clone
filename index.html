@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Clone</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -17,13 +19,30 @@
                 <button><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
             <div>
-                <img src="https://img.icons8.com/material-sharp/24/000000/squared-menu.png"/>
+                <img src="https://img.icons8.com/material-sharp/24/000000/squared-menu.png" />
                 <i class="fa fa-bell" aria-hidden="true"></i>
                 <img src="./images/avatar.jpeg" alt="Sleepy Cat" style="width: 200px; height: 200px;">
             </div>
         </nav>
     </header>
-
-    <main></main>
+    <main>
+        <section>
+            <div class="video">
+                <iframe id="video" width="500px" height="400px"
+                    src="https://www.youtube-nocookie.com/embed/-XRxET-WWxI?rel=0&amp;controls=0&amp;showinfo=0"
+                    controls frameborder="0" allowfullscreen="">
+                </iframe>
+                <h2>Thinking Out Loud/lucky cover by Rich Malik</h2>
+                <p>705 views</p>
+                <div>
+                    <i class="fa fa-thumbs-up" aria-hidden="true">2000</i>
+                    <i class="fa fa-thumbs-down" aria-hidden="true">110</i>
+                    <i class="fa fa-share">Share</i>
+                </div>
+                <button class="subscribe">Subscribe</button>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
