@@ -114,8 +114,31 @@ main {
 
 #grid-container-main {
 	display: grid;
-	grid-template-columns: 2.3fr 1fr;
+	grid-template-columns: 2fr 1fr;
 	margin-top: 40px;
+}
+
+#section-container {
+	margin-right: 23px;
+}
+
+#grid-container-video-main-info {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+#grid-container-video-main-info-extra {
+	text-align: right;
+}
+
+#grid-container-video-main-info-extra .fa {
+	padding-left: 20px;
+}
+
+#grid-container-video-additional-info {
+	display: grid;
+	grid-template-columns: 0.4fr 4fr 1fr;
+	margin-top: 25px;
 }
 
 .grid-aside {
@@ -188,6 +211,10 @@ main {
 	font-size: 20px;
 }
 
+#grid-container-video-main-info {
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
 
 .cat-one {
 	background-image: url("https://images.unsplash.com/photo-1482066490729-6f26115b60dc?ixlib=rb-1.2.1&w=1000&q=80");
