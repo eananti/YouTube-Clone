@@ -77,29 +77,24 @@ table {
 	border-spacing: 0;
 }
 
+/* general */
+body{
+	margin: 20px;
+}
+
+main{
+   margin: 17px;
+}
 /* grid */
 
 #grid-container-header{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 3fr 1fr;
 }
-
-/* .logo-container{
-    width: 50px;
-    height: 50px;
-} */
 
 .search-container{
-    /* width: 250px;
-	height: 50px; */
 	margin: 0 auto;
 }
-
-/* .icon-container{
-    width: 100px;
-    height: 50px;
-   
-} */
 
 .right {
 	float: right;
@@ -165,3 +160,33 @@ table {
 .dog-one {
 	background-image: url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
+
+.logo-container{
+	color: red;
+}
+.black{
+	color: black;
+	margin-left: 5px;
+}
+.fa-youtube-play{
+	margin-left: 20px;
+}
+.search-container input{
+	float: left;
+	border: 1px solid grey;
+	padding: 8px;
+	width: 400px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.search-container button{
+	float: left;
+	border: 1px solid grey;
+	border-left: none;
+	padding: 8px;
+	width: 50px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;	
+}
+
+
