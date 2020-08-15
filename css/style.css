@@ -90,8 +90,16 @@ main {
 	grid-template-columns: 1fr 3fr 1fr;
 }
 
+.logo-container {
+	margin: auto;
+}
+
 .search-container {
 	margin: 0 auto;
+}
+
+.icon-container {
+	margin: auto;
 }
 
 .right {
@@ -148,8 +156,8 @@ main {
 	border: 1px solid grey;
 	padding: 8px;
 	width: 400px;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
 }
 
 .search-container button {
@@ -158,8 +166,9 @@ main {
 	border-left: none;
 	padding: 8px;
 	width: 50px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	background-color: f8f8f8;
 }
 
 .circle-avatar {
