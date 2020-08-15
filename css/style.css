@@ -122,9 +122,15 @@ main {
 	margin-right: 23px;
 }
 
+#section-container-main h2 {
+	padding-top: 10px;
+}
+
 #grid-container-video-main-info {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 #grid-container-video-main-info-extra {
@@ -137,8 +143,20 @@ main {
 
 #grid-container-video-additional-info {
 	display: grid;
-	grid-template-columns: 0.4fr 4fr 1fr;
-	margin-top: 25px;
+	grid-template-columns: 0.5fr 3fr 1fr;
+	padding-top: 10px;
+}
+
+#subscribe-button button {
+	float: right;
+}
+
+#video-description {
+	padding-top: 35px;
+}
+
+#video-description-more {
+	padding-top: 15px;
 }
 
 .grid-aside {
@@ -203,7 +221,7 @@ main {
 	opacity: 0.2;
 }
 
-.search-container button>i {
+.search-container button > i {
 	color: #000000;
 }
 
@@ -211,9 +229,19 @@ main {
 	font-size: 20px;
 }
 
-#grid-container-video-main-info {
-	border-bottom: 1px solid black;
-	padding-bottom: 5px;
+#video-owner {
+	font-size: 48px;
+}
+
+#subscribe-button button {
+	color: #ffffff;
+	background-color: #c00;
+	border-radius: 2px;
+	padding: 10px 16px;
+	margin: 4px;
+	font-size: 14px;
+	font-weight: 400;
+	border: none;
 }
 
 .cat-one {
