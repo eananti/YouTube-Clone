@@ -68,11 +68,16 @@ table {
 */
 
 body {
-	margin: 20px;
+	background-color: #f9f9f9;
+}
+
+header {
+	padding: 14px 0 14px 0;
+	background-color: #ffffff;
 }
 
 main {
-	margin: 17px;
+	margin: 50px;
 }
 
 /* 
@@ -109,7 +114,8 @@ main {
 
 #grid-container-main {
 	display: grid;
-	grid-template-columns: 3fr 1fr;
+	grid-template-columns: 2.3fr 1fr;
+	margin-top: 40px;
 }
 
 .grid-aside {
