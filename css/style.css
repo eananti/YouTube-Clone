@@ -1,45 +1,26 @@
-/* Project Meta */
-
 /* reset  */
 
-/* general */
+/* base */
 
-/* typography */
+/* layout */
 
-/* grid */
+/* template */
 
-/* header */
-
-/* footer */
-
-/* Page template A */
-
-/* reset  */
-
-/* Media Queries */
-
-
-
-/* reset  */
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/*
+*
+*
+*
+* reset
+*
+* http://meyerweb.com/eric/tools/css/reset/ 
+* v2.0 | 20110126
+* License: none (public domain)
+*
+*
+*
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -49,8 +30,8 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
@@ -66,8 +47,7 @@ blockquote, q {
 	quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
@@ -77,22 +57,40 @@ table {
 	border-spacing: 0;
 }
 
-/* general */
-body{
+/* 
+*
+*
+*
+* base
+*
+*
+*
+*/
+
+body {
 	margin: 20px;
 }
 
-main{
-   margin: 17px;
-}
-/* grid */
-
-#grid-container-header{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+main {
+	margin: 17px;
 }
 
-.search-container{
+/* 
+*
+*
+*
+* layout
+*
+*
+*
+*/
+
+#grid-container-header {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+}
+
+.search-container {
 	margin: 0 auto;
 }
 
@@ -111,18 +109,26 @@ main{
 	margin-bottom: 10px;
 }
 
+#grid-thumbnail {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
 #first-thumbnail {
 	margin-bottom: 20px;
 	border-bottom: 1px solid black;
 	padding-bottom: 20px;
 }
 
-#grid-thumbnail {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-}
-
-/* Page template A */
+/* 
+*
+*
+*
+* template
+*
+*
+*
+*/
 
 .circle-avatar {
 	width: 40px;
@@ -131,16 +137,16 @@ main{
 }
 
 .sidebar-image {
+	position: relative;
 	width: 168px;
 	height: 94px;
 	background-size: cover;
 	background-position: center;
-	position: relative;
 }
 
 .sidebar-caption {
-	display: block;
 	position: absolute;
+	display: block;
 	top: 75px;
 	right: 3px;
 	background-color: black;
@@ -161,17 +167,20 @@ main{
 	background-image: url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
 
-.logo-container{
+.logo-container {
 	color: red;
 }
-.black{
+
+.black {
 	color: black;
 	margin-left: 5px;
 }
-.fa-youtube-play{
+
+.fa-youtube-play {
 	margin-left: 20px;
 }
-.search-container input{
+
+.search-container input {
 	float: left;
 	border: 1px solid grey;
 	padding: 8px;
@@ -179,14 +188,13 @@ main{
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
-.search-container button{
+
+.search-container button {
 	float: left;
 	border: 1px solid grey;
 	border-left: none;
 	padding: 8px;
 	width: 50px;
 	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;	
+	border-bottom-right-radius: 5px;
 }
-
-
