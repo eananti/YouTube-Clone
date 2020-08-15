@@ -99,11 +99,12 @@ main {
 }
 
 .icon-container {
-	margin: auto;
+	margin: auto 0;
 }
 
 .right {
 	float: right;
+	padding-right: 25px;
 }
 
 #grid-container-main {
@@ -153,29 +154,34 @@ main {
 
 .search-container input {
 	float: left;
-	border: 1px solid grey;
+	border: 1px solid #333;
 	padding: 8px;
-	width: 400px;
+	width: 500px;
 	border-top-left-radius: 2px;
 	border-bottom-left-radius: 2px;
+	opacity: 0.2;
 }
 
 .search-container button {
 	float: left;
-	border: 1px solid grey;
+	border: 1px solid #333;
 	border-left: none;
 	padding: 8px;
-	width: 50px;
+	width: 65px;
 	border-top-right-radius: 2px;
 	border-bottom-right-radius: 2px;
-	background-color: f8f8f8;
+	background-color: #dfdede;
+	opacity: 0.2;
 }
 
-.circle-avatar {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
+.search-container button>i {
+	color: #000000;
 }
+
+.right .size {
+	font-size: 20px;
+}
+
 
 .cat-one {
 	background-image: url("https://images.unsplash.com/photo-1482066490729-6f26115b60dc?ixlib=rb-1.2.1&w=1000&q=80");
