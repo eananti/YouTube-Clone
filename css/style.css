@@ -79,7 +79,14 @@ header {
 main {
 	margin: 50px;
 }
-
+h1{
+	font-weight: 800;
+    font-size: 20px;
+}
+h4{
+	font-weight: 600;
+	font-size: 15px;
+}
 iframe {
 	width: 100%;
 	height: 450px;
@@ -139,7 +146,7 @@ footer {
 	margin-right: 23px;
 }
 
-#section-container-main h2 {
+#section-container-main h1 {
 	padding-top: 10px;
 }
 
