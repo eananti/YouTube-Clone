@@ -51,9 +51,9 @@
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@DeliceLydia](https://github.com/DeliceLydia)
+- Twitter: [@IngabireLydia3](https://twitter.com/IngabireLydia)
+- Linkedin: [Delice Lydia](https://www.linkedin.com/in/delice-lydia-91b55b167/)
 
 ## Show your support
 
