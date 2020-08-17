@@ -236,7 +236,7 @@ footer {
 }
 
 .search-container input::placeholder {
-	color: blue;
+	color: rgb(141, 139, 139);
 }
 
 .search-container button {
