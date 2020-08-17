@@ -80,6 +80,12 @@ main {
 	margin: 50px;
 }
 
+iframe {
+	width: 100%;
+	height: 450px;
+	border: none;
+}
+
 aside {
 	padding-top: 3px;
 }
@@ -222,12 +228,15 @@ footer {
 
 .search-container input {
 	float: left;
-	border: 1px solid #333;
+	border: 1px solid #D6D6D6;
 	padding: 8px;
 	width: 500px;
 	border-top-left-radius: 2px;
 	border-bottom-left-radius: 2px;
-	opacity: 0.2;
+}
+
+.search-container input::placeholder {
+	color: blue;
 }
 
 .search-container button {
