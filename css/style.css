@@ -222,7 +222,8 @@ footer {
 	font-weight: 500;
 }
 
-.search-container input, .search-container button {
+.search-container input, 
+.search-container button {
 	float: left;
 	padding: 8px;
 }
@@ -365,10 +366,10 @@ footer {
 	color: white;
 	opacity: 0.9;
 	padding: 3px 3px;
-	font-size: 12px;
 }
 
-.thumbnail-info .fa-check-circle {
+.thumbnail-info .fa-check-circle,
+.sidebar-caption {
 	font-size: 12px;
 }
 
