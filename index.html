@@ -5,23 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Clone</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/d7c2fd4a1e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <!-- Header Section -->
     <header>
         <nav id="grid-container-header">
-            <div class="logo-container">
-                <span class="black"><i class="fa fa-bars" aria-hidden="true"></i></span>
-                <i class="fa fa-youtube-play fa-lg" aria-hidden="true"><span class="black">YouTube Clone</span></i>
+            <div class="block-vertical-align">
+                <img class="toggle-logo-image" src="./images/toggle_menu.png" alt="Navigation Menu">
+                <img class="toggle-logo-image" src="./images/youtube_logo_icon.png" alt="YouTube Logo">
+                <span>YouTube Clone</span>
             </div>
-            <div class="search-container">
+            <div class="search-container block-horizontal-align">
                 <input type="text" name="Search Bar" id="text-field" placeholder="Search">
                 <button><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
-            <div class="icon-container">
+            <div class="block-vertical-align">
                 <div class="right">
                     <i class="fab fa-adn size"></i>
                 </div>
@@ -37,6 +39,7 @@
             </div>
         </nav>
     </header>
+    <!-- Main Section -->
     <main id="grid-container-main">
         <div id="section-container">
             <section id="section-container-main">
@@ -48,7 +51,7 @@
                 <h1>Cute and Funny Dog Compilation</h1>
                 <div id="grid-container-video-main-info">
                     <p>1,340,783 views • 18 Dec 2018</p>
-                    <div id="grid-container-video-main-info-extra">
+                    <div class="grid-container-video-main-info-extra">
                         <i class="fa fa-thumbs-up" aria-hidden="true"> 100K</i>
                         <i class="fa fa-thumbs-down" aria-hidden="true"> 110</i>
                         <i class="fa fa-share"> Share</i>
@@ -60,25 +63,26 @@
                 <div id="video-owner">
                     <i class="fab fa-adn"></i>
                 </div>
-                <div id="video-information">
+                <div class="video-information">
                     <h2>Animal World</h2>
-                    <h3>100K Subscribers</h3>
-                    <p id="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptates
+                    <h3>100K subscribers</h3>
+                    <p class="video-infor-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptates
                         exercitationem aliquid quod sit reiciendis voluptatibus ullam, magni optio ea laudantium totam
                         beatae. Iusto autem repudiandae rerum rem, quae animi!</p>
-                    <p id="video-description-more">SHOW MORE</p>
+                    <p class="video-infor-show-more">SHOW MORE</p>
                 </div>
                 <div id="subscribe-button">
                     <button>SUBSCRIBE</button>
                 </div>
             </section>
         </div>
+        <!-- Aside Section -->
         <aside>
             <section class="grid-aside">
                 <div>
                     <h3>Up next</h3>
                 </div>
-                <div id="thumbnail">
+                <div class="thumbnail">
                     <span>AUTOPLAY</span>
                     <i class="fa fa-toggle-on fa-lg" aria-hidden="true"></i>
                 </div>
@@ -152,6 +156,7 @@
             </section>
         </aside>
     </main>
+    <!-- Footer Section -->
     <footer>
         <p>Please note, no Animal was harmed in the making of this website.</p>
         <p>To learn more about this project, visit our <a href="https://github.com/eananti/YouTube-Clone"
